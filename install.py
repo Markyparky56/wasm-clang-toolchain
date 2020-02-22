@@ -8,7 +8,6 @@ import tarfile
 import zipfile
 from string import Template
 from tqdm import tqdm
-from setuppath import SetupPath
 
 # libclang_rt.builtins needs to be installed inside clang, but we don't know the version number
 # intitially so we'll fill it in by template at runtime
