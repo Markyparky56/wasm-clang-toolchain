@@ -147,7 +147,6 @@ def installProject(projectName, projectObj):
         os.chdir(oldDir)
 
 def main(args):
-    SetupPath()
     toolsFile = open("./tools.json", "r")
     tools = json.load(toolsFile)
     toolsFile.close()
